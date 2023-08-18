@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+  <title>Runner 2D</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="logo.png" />
+</head>
+
+<body onload="createBoxes();" class="main" onkeyup="KeyCheck(event);">
+
+
+
+  <div class="backgroundBox" id="backgroundBox">
+
+    <p class="score" id="score">: 0</p>
+
+    <p class="yourScore">Your Score</p>
+    <img src="Run (1).png" class="boy" id="boy" />
+  </div>
+
+
+  <div class="startGame" id="startGame">
+    <P class="title">Runner 2D</P>
+    <p class="winp">Score 10000 to win the game</p>
+    <button class="btn2">Press Enter To Start</button>
+    <img src="ins.png" class="instru" />
+  </div>
+
+
+  <div class="endGame" id="endGame">
+    <div class="gameOver">Game Over</div>
+    <div class="ys">Your Score</div>
+    <div id="endScore" class="endScore">0</div>
+    <button onclick="reload();" class="btn">Try Again</button>
+  </div>
+
+  <div class="win" id="win">
+    <div class="con">Congratulation!</div>
+    <div class="youwin">You Complete The Game</div>
+    <button onclick="reload();" class="btn">Play Again</button>
+  </div>
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>

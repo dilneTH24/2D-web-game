@@ -1,0 +1,216 @@
+.main {
+    margin: 0px;
+}
+
+.backgroundBox {
+    width: 100%;
+    height: 100vh;
+    background-image: url("background.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    position: absolute;
+}
+
+.boy {
+    height: 250px;
+    margin-top: 262px;
+    position: absolute;
+}
+
+.score {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 220px;
+    font-weight: bold;
+    margin-top: 43px;
+}
+
+.box {
+    width: 80px;
+    height: 150px;
+    background-image: url("flame.gif");
+    position: absolute;
+    margin-top: 396px;
+    background-size: 70px 100%;
+}
+
+.yourScore {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.endGame {
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 90px;
+    font-weight: 90px;
+    color: white;
+    font-family: "Arial";
+    visibility: hidden;
+    margin-top: -125px;
+
+
+
+}
+
+.btn {
+    width: 400px;
+    height: 50px;
+    background-color: red;
+
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: red;
+    background-color: white;
+}
+
+.startGame {
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 90px;
+    font-weight: 90px;
+    color: white;
+    font-family: "Arial";
+    visibility: visible;
+
+
+}
+
+.btn2 {
+    width: 400px;
+    height: 50px;
+    background-color: red;
+
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+}
+
+.instru {
+    position: absolute;
+    height: 200px;
+    margin-left: 950px;
+    margin-top: -68px;
+
+}
+
+.ys {
+    width: 300px;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.555);
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+}
+
+.gameOver {
+    width: 600px;
+    height: 100px;
+    background-color: transparent;
+    text-align: center;
+    font-family: "Bradhitc";
+
+    font-size: 85px;
+    color: rgb(0, 132, 255);
+    font-weight: bold;
+
+
+}
+
+
+
+@font-face {
+    font-family: "Bradhitc";
+    src: url(BRADHITC.TTF);
+
+}
+
+.endScore {
+    color: rgb(0, 132, 255);
+}
+
+.winp {
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+    margin-top: 10px;
+
+}
+
+.win {
+    width: 100%;
+    height: 100vh;
+
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 90px;
+    font-weight: 90px;
+    color: white;
+    font-family: "Arial";
+    visibility: hidden;
+    margin-top: -125px;
+}
+
+.con {
+    color: orange;
+    font-weight: bold;
+}
+
+.youwin {
+    color: rgba(128, 0, 128, 0.685);
+    font-weight: bold;
+}
+
+.title {
+    margin-top: -470px;
+    position: absolute;
+    font-family: "hatten";
+    color: rgb(179, 67, 89, 0.699);
+}
+
+@font-face {
+    font-family: "hatten";
+    src: url(HATTEN.TTF);
+}
